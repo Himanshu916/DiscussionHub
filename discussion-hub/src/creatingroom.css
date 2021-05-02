@@ -1,0 +1,56 @@
+.creating__room
+{
+    background-color:rgba(255,255,255);
+    position:fixed;
+    top:10%;
+    left:35%;
+    width:25%;
+    height:30vh;
+    box-shadow: 1px 1px 10px 2px rgb(209, 213, 218);
+    display: flex;
+    flex-direction: column;
+    overflow:auto;
+    z-index: 1000;
+}
+
+.room__entry
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+.room__entry>input
+{
+    width:50%;
+    padding: 8px;;
+}
+
+.creatingRoom__buttons
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.creatingRoom__buttons button
+{
+    padding: 10px;
+    border: none;
+    background-color: gray;
+    margin-left: 10px;
+    border-radius: 5px;
+    width:80px;
+    color:white;
+    cursor: pointer;
+    
+}
+
+@media screen and (max-width:600px) {
+    .creating__room
+    {
+        width:80%;
+        left:10%;
+    }
+}

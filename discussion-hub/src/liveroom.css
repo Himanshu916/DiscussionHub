@@ -1,0 +1,69 @@
+
+.heading
+{
+    margin: 0;
+    padding:1rem;
+    margin-left: 2rem;
+    color:var(--primary-color)
+}
+.removeLine
+{
+    text-decoration: none;
+    color: white;
+}
+.liverooms
+{
+    display: flex;
+    padding:.5rem;
+    margin-top:0 ;
+    flex-wrap: wrap;
+    
+}
+.liveroom{
+    background-color: var(--primary-color);
+    padding:.8rem;
+    width:16rem;
+    box-sizing: border-box;
+    color:white;
+    margin-left: .8rem;;
+    border-radius:1rem;
+    margin-bottom: .8rem;
+    cursor:pointer;
+}
+.liveroom h1,h2,h3
+{
+    margin: 0;
+    font-weight:700;
+}
+.liveroom h1
+{
+    color:#A0AEC0;
+}
+@media screen and (max-width:550px){
+
+    .liveroom
+    {
+        margin-left: .4rem;
+        width:13rem;
+        margin-bottom: .5rem;
+    }
+}
+@media screen and (max-width:450px)
+{
+    .liveroom
+    {
+     
+        width:100%;
+       
+    }
+}
+
+@media screen and (min-width:850px)
+{
+    .liveroom
+    {
+        padding: 1rem;
+        margin-left: 2.2rem;
+        margin-bottom: 2rem;
+    }
+}
