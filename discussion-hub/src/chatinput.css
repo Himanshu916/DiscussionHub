@@ -1,0 +1,40 @@
+.chatInput
+{
+    border-radius: 20px;
+    position: relative;
+
+}
+/* .chatInput>form{
+    
+} */
+
+.chatInput>form{
+    position: fixed;
+    bottom: 0;
+    width:70%;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 20px; */
+}
+.chatInput>form>input{
+    flex: 1;
+    padding:10px;
+    border:none;
+    outline: none;
+}
+.chatInput>form>button{
+    padding:10px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;;
+}
+@media screen and (max-width:550px) {
+    .chatInput>form
+    {
+        width:66%;
+    }
+}
